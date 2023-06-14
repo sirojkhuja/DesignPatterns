@@ -1,0 +1,17 @@
+{
+  "name": "vendor_name/app",
+  "description": "Design Patterns practices using PHP",
+  "minimum-stability": "stable",
+  "license": "ISC",
+  "authors": [
+    {
+      "name": "Sirojkhuja Muminkhodjaev",
+      "email": "sirojxuja@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "DesignPatterns\\" : "app/"
+    }
+  }
+}
